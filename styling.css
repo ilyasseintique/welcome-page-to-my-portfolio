@@ -50,7 +50,15 @@ h1{
   text-align: center;
   animation: lightning 2s infinite;
 }
-
+.corner{
+    position: fixed; 
+    top: 85%; left: 89%; 
+    background: linear-gradient(45deg,black,rgba(0, 0, 0, 0.867),gray); 
+    height: 30vh; 
+    width: 20vw; 
+    border-radius: 50%; 
+    z-index: 999;
+}
 @keyframes lightning {
   0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
     text-shadow: none;  /* normal */
@@ -87,5 +95,23 @@ h1{
         top: 70%;
         left: 50%;
     }
+    body{
+        font-size: smaller;
     }
-}
+    .shadow{
+        width: 50vw;
+        height:30vh;
+        top: 75%;
+        left:48%;
+    }
+    .lightning-text{
+        width: 80%;
+    }
+    .corner{
+        top: 90%; 
+        left: 60%; 
+        border-radius:0%;
+        height: 10vh;
+        width: 40vw;
+    }
+    }
