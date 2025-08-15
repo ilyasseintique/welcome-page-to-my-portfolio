@@ -84,9 +84,6 @@ h1{
     100% {transform: translateY(0px) translateX(0px)}
 }
 @media screen and (max-width:780px){
-    .smallDev{
-
-    }
     .shadow{
         top: 70%;
         left: 50%;
